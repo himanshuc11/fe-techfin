@@ -36,6 +36,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
 ## Tech Stack
-Shadcn for UI components.
-tanstack query for server state.
-tanstsack table for dashboard.
+- Shadcn for UI components.
+- Tanstack query for server state.
+- Tanstsack table for dashboard.
