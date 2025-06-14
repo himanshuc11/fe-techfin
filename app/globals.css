@@ -39,7 +39,7 @@
 
 /* Light mode */
 :root {
-  --background: oklch(0.98 0 0);                /* Soft white */
+  --background: oklch(1 0 0);                /* Soft white */
   --foreground: oklch(0.25 0 0);                /* Rich dark text */
 
   --card: oklch(1 0 0);                      /* Light card background */
@@ -48,7 +48,7 @@
   --popover: oklch(0.96 0 0);
   --popover-foreground: var(--foreground);
 
-  --primary: oklch(0.6 0.1 250);                /* Calm blue */
+  --primary: oklch(0.51 0.25 280);              /* Vibrant blue */
   --primary-foreground: oklch(0.98 0 0);        /* White text */
 
   --secondary: oklch(0.92 0.02 250);

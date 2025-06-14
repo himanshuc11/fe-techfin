@@ -106,7 +106,7 @@ export function TransactionForm({ transaction, onSubmit, isSubmitting }: Transac
                     <SelectValue placeholder="Select a category" />
                   </SelectTrigger>
                 </FormControl>
-                <SelectContent>
+                <SelectContent className="w-full">
                   {categories.map((category) => (
                     <SelectItem key={category} value={category}>
                       {category}

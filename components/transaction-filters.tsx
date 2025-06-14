@@ -87,7 +87,7 @@ export function TransactionFiltersComponent({ filters, onFiltersChange }: Transa
         <div className="space-y-2">
           <Label className="text-sm font-medium text-slate-700">Category</Label>
           <Select value={filters.category || ""} onValueChange={(value) => handleFilterChange("category", value)}>
-            <SelectTrigger className="border-slate-200 focus:border-slate-400">
+            <SelectTrigger className="border-slate-200 focus:border-slate-400 w-full">
               <SelectValue placeholder="Select category" />
             </SelectTrigger>
             <SelectContent>
