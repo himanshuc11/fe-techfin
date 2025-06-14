@@ -87,7 +87,7 @@ export function TransactionTable({ filters }: TransactionTableProps) {
   useEffect(() => {
     if(error) {
       toast.error(error.message + " Need to sign up to view dashboard")
-      // router.push("/")
+      router.push("/")
     }
   }, [error])
 
